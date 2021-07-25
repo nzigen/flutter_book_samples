@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - platform_channel (0.0.1):
+    - Flutter
+    - Reachability
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - platform_channel (from `.symlinks/plugins/platform_channel/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Reachability
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  platform_channel:
+    :path: ".symlinks/plugins/platform_channel/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  platform_channel: 48bb550ff0beabe8df5fc28cad1899cfaf473466
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.0
