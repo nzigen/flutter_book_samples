@@ -67,7 +67,7 @@ class _TweenStaggeredPageState extends State<TweenStaggeredPage>
           ),
         )
         .drive(
-          BorderRadiusTween(
+          Tween(
             begin: BorderRadius.circular(0),
             end: BorderRadius.circular(75.0),
           ),
