@@ -1,4 +1,4 @@
-package com.nzigen.flutterbooksamples.statefulwidget
+package com.example.flutterstateful
 
 import io.flutter.embedding.android.FlutterActivity
 
