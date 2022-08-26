@@ -1,4 +1,4 @@
-package com.example.layout_samples
+package com.example.flutterstateful
 
 import io.flutter.embedding.android.FlutterActivity
 

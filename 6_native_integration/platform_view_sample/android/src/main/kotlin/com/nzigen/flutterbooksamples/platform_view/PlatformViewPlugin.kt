@@ -38,9 +38,9 @@ public class PlatformViewPlugin : FlutterPlugin {
 }
 
 class FlutterWebViewFactory(private val messenger: BinaryMessenger) : PlatformViewFactory(StandardMessageCodec.INSTANCE) {
-    override fun create(context: Context, id: Int, args: Any?): PlatformView {
+    override fun create(context: Context?, id: Int, args: Any?): PlatformView {
         val creationParams = args as Map<String?, Any?>?
-        return FlutterWebView(context, messenger, id, creationParams)
+        return FlutterWebView(context!!, messenger, id, creationParams)
     }
 }
 
